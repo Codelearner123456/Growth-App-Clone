@@ -251,7 +251,7 @@ img {
   margin: 20px 30px 30px 0;
 }
 
-.footer input[type='email'] {
+.footer input[type="email"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -262,8 +262,8 @@ img {
 /* Utility classes */
 .container {
   max-width: 1100px;
-  margin:  auto;
-  padding: 15px; 
+  margin: auto;
+  padding: 15px;
 }
 
 .container-sm {
@@ -400,7 +400,7 @@ img {
   height: 100%;
   z-index: 100;
   background: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   transition: right 0.3s ease-in-out;
 }
 
@@ -424,12 +424,12 @@ img {
 
 /* Media Queries */
 @media (max-width: 960px) {
-   .text-xxl {
+  .text-xxl {
     font-size: 2.5rem;
-   }
+  }
 }
 
-@media(max-width: 670px) {
+@media (max-width: 670px) {
   .navbar .main-menu {
     display: none;
   }
@@ -439,14 +439,14 @@ img {
   }
 
   .hero .container {
-    background: url('../images/hero-bg-mobile.png') no-repeat;
+    background: url("../images/hero-bg-mobile.png") no-repeat;
     background-size: 350px 400px;
     background-position: bottom;
     height: 770px;
   }
 
-  .hero .hero-content, 
-  .hero .hero-text{
+  .hero .hero-content,
+  .hero .hero-text {
     width: 100%;
     text-align: center;
   }
@@ -490,7 +490,7 @@ img {
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .text-xxl {
     font-size: 2rem;
   }
